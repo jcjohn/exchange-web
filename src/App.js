@@ -58,7 +58,7 @@ class App extends Component {
                 <option value="CAD">Canadian Dollars</option>
               </select>
               to
-              <span id="exchangeAmount">{this.state.exchangAmount}</span>
+              <span id="exchangeAmount">{this.state.exchangeAmount}</span>
               <select name="exchangCode" value={this.state.exchangeCode} onChange={this.handleExchangeCode}>
                 <option value="USD">US Dollars</option>
                 <option value="CAD">Canadian Dollars</option>
